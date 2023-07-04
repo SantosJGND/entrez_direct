@@ -116,7 +116,7 @@ class EntrezWrapper:
         
         cmd_long= [
             cmd,
-            ">",
+            ">>",
             os.path.join(self.outdir, self.outfile)
         ]
 

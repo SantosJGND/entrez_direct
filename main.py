@@ -18,9 +18,9 @@ if __name__ == "__main__":
         outdir= "test",
         outfile= "test.txt",
         query_type= "fetch_taxid_description",
-        chunksize= 1000
+        chunksize= 1
     )
 
-    entrez_conn.run_queries(["9606", "10090", "10116"])
+    entrez_conn.run_queries(["1562566", "69395", "507626"])
     df= entrez_conn.read_output()
     print(df)

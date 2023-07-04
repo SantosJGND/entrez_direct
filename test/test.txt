@@ -1,0 +1,4 @@
+507626	Halomonas chromatireducens
+1562566	Blastocatellia
+69395	Caulobacter henricii
+507626	Halomonas chromatireducens
